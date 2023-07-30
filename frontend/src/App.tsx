@@ -1,5 +1,5 @@
-import './App.css'
-import Community from './Pages/Community'
+import './App.scss';
+import Community from './Pages/Community/Community'
 function App() {
 
   return (
