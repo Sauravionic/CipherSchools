@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+.navbar {
+    margin-bottom: 200px;
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            display: flex;
+            cursor: pointer;
+            img {
+                height: 40px;
+                width: 40px;
+            }
+            h2 {
+                margin: 0;
+                padding-left: 5px;
+                letter-spacing: 0.6px;
+                font-size: 30px;
+                font-family: 'Teko', sans-serif;
+                font-weight: 500;
+            }
+        }
+
+        .content {
+            h2 {
+                margin-left: -5px;
+                font-weight: 600;
+                font-size: 20px;
+            }
+        }
+        .profile {
+            display: flex;
+
+            .alert {
+                cursor: pointer;
+                background-color: transparent;
+                border: none;
+                transform: rotate(-20deg);
+                margin-right: 5px;
+            }
+            .profilepic {
+                cursor: pointer;
+                background-color: transparent;
+                border: none;
+                img {
+                    height: 35px;
+                    border-radius: 50%;
+                    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                }
+            }
+        }
+    }
+    hr {
+        margin: 0;
+        border: 0.08px solid lightgray;
+    }
+}
