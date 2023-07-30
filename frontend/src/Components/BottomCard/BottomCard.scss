@@ -1,0 +1,11 @@
+.bottomCard {
+    margin-top: 25px;
+    .container {
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 15px;
+        gap: 15px;
+        padding: 15px 0px 15px 10px;
+    }
+}

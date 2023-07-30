@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 .navbar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 999;
     .container {
         padding-left: 10px;
         padding-right: 10px;

@@ -1,5 +1,6 @@
 import OptionCard from "../OptionCard/OptionCard";
 import ProfileCard from "../ProfileCard/ProfileCard"
+import BottomCard from "../BottomCard/BottomCard";
 import "./LeftSection.scss";
 
 const LeftSection = () => {
@@ -7,7 +8,8 @@ const LeftSection = () => {
     <div className="leftSection">
       <div className="container">
         <ProfileCard />
-        <OptionCard/>
+        <OptionCard />
+        <BottomCard />
       </div>
     </div>
   )

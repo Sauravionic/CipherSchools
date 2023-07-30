@@ -1,0 +1,70 @@
+.bottomCardItem {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row !important;
+        align-items: center;
+        border: none !important;
+        gap: 10px;
+        padding: 0 !important;
+        
+        .twoContent {
+            display: flex;
+            gap: 12px;
+            .image {
+                cursor: pointer;
+                border-radius: 50%;
+                border: 1px solid lightgray;
+                width: 40px;
+                height: 40px;
+                box-shadow: 1px 1px 5px 3px #d3d3d3;
+                transition: 0.5s all ease;
+                img {
+                    background-size:contain;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                }
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            .content {
+                cursor: pointer;
+                span {
+                    font-size: 11px;
+                    color: rgb(64, 63, 63);
+                }
+                h3 {
+                    margin: 0;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+        .followButton {
+            cursor: pointer;
+
+            button {
+                width: 100px;
+                max-width: 100px;
+                display: flex;
+                justify-content: end;
+                cursor: pointer;
+                background-color: transparent;
+                border: none;
+                display: flex;
+                align-items: center;
+                gap: 1px;
+                font-size: 14px;
+
+                svg {
+                    width: 16px;
+                    color: #f45046;
+                }
+            }
+        }
+    }
+}
