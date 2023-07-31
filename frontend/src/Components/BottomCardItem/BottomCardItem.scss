@@ -7,7 +7,7 @@
         border: none !important;
         gap: 10px;
         padding: 0 !important;
-        
+        overflow-y: unset !important;
         .twoContent {
             display: flex;
             gap: 12px;
@@ -46,10 +46,10 @@
         }
         .followButton {
             cursor: pointer;
-
+            padding-right: 8px;
             button {
-                width: 100px;
-                max-width: 100px;
+                width: max-content;
+                max-width: 90px;
                 display: flex;
                 justify-content: end;
                 cursor: pointer;
@@ -58,8 +58,13 @@
                 display: flex;
                 align-items: center;
                 gap: 1px;
-                font-size: 14px;
-
+                font-size: 13px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                &:hover {
+                    background-color: rgb(239, 239, 239, 0.6);
+                    border-radius: 8px;
+                }
                 svg {
                     width: 16px;
                     color: #f45046;

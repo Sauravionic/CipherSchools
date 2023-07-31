@@ -7,5 +7,7 @@
         border-radius: 15px;
         gap: 15px;
         padding: 15px 0px 15px 10px;
+        overflow-y: unset !important;
+        max-height: max-content !important;
     }
 }

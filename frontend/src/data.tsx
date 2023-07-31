@@ -2,86 +2,120 @@ export const users = [
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: `Hi 🙋‍♂️ to  from Saurav. Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!`,
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from Saurav.!Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
     {
         username: "anurag",
         image: "https://d3gmywgj71m21w.cloudfront.net/e5f15e56c16bc817679b91a7323bf6de.jpeg",
-        name: "Anurag Mishra"
+        name: "Anurag Mishra",
+        desc: "Hi 🙋‍♂️ to  from !Sometimes things around us appear to be so magical.The existence of life, space, planets and so much more that we are still unaware of Experience it, and be happy & thankful!",
+        subcomments: true,
     },
 ]

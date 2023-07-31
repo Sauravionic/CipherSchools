@@ -1,0 +1,127 @@
+.commentCard {
+    margin-top: 20px;
+    .container {
+        display: flex;
+        flex-direction: row !important;
+        gap: 10px;
+        overflow-y: unset !important;
+        max-height: max-content !important;
+        .profilepic {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            box-shadow: 1px 1px 5px 3px #d3d3d3;
+            img {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+        }
+        .commentedsection {
+            width: 84%;
+            background-color: #f7f9f9;
+            border-radius: 10px;
+            padding: 10px;
+            .headers {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .names {
+                    display: flex;
+                    gap: 5px;
+                    .username {
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: rgba(82, 81, 81, 0.801);
+                        letter-spacing: 0.3px;
+                    }
+                    .dot {
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: rgba(82, 81, 81, 0.801);
+                    }
+                    .time {
+                        font-size: 11px;
+                        font-weight: 400;
+                        letter-spacing: 0.3px;
+                        color: #f3912E;
+                    }
+                }
+                .more {
+                    button {
+                        min-width: max-content !important;
+                        max-width: max-content !important;
+                        height: 20px !important;
+
+                        &:hover {
+                            background-color: transparent;
+                        }
+                        svg {
+                            height: 20px !important;
+                        }
+                    }
+                }
+            }
+            .mid {
+                p{
+                    margin-top: 5px;
+                    font-size: 13.5px;
+                    font-weight: 500;
+                    color: rgb(0 0 0 / 75%);
+                    letter-spacing: 0.4px;
+                    margin-bottom: 7px;
+                }
+            }
+
+            .footers {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .comments {
+                    button {
+                        cursor: pointer;
+                        background: transparent;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        svg {
+                            height: 18px;
+                            width: 18px;
+                        }
+                    }
+                }
+                .likes {
+                    button {
+                        cursor: pointer;
+                        background: transparent;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        svg {
+                            height: 18px;
+                            width: 18px;
+                        }
+                    }
+                }
+                .reply {
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    span {
+                        font-size: 14px;
+                        letter-spacing: 0.4px;
+                    }
+                }
+
+                .clicked {
+                    color:#007aff;
+                }
+            }
+        }
+    }
+    .secondcontainer {
+        padding-left: 20px;
+    }
+}

@@ -1,16 +1,14 @@
 import LeftSection from "../../Components/LeftSection/LeftSection"
-import MiddleSection from "../../Components/MiddleSection"
-import Navbar from "../../Components/Navbar/Navbar"
-import RightSection from "../../Components/RightSection"
+import MiddleSection from "../../MiddleSection/MiddleSection"
+import RightSection from "../../Components/RightSection/RightSection"
 import "./Community.scss";
 
-const Community = () => {
+const Community = ({item}: any) => {
     return (
         <div className="community">
-            <Navbar/>
             <div className="container">
                 <LeftSection />
-                <MiddleSection />
+                <MiddleSection item={item} />
                 <RightSection />
             </div>
         </div>
