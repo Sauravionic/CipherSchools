@@ -1,22 +1,20 @@
-.trendingPosts {
-    .trendingcontainer {
+.trendingCourses {
+    margin-top: 25px;
+    .trendingCoursesContianer {
         background-color: #f7f9f9;
         border-radius: 10px 10px 0 0;
-        .trendingheader {
+        .trendingheader{
             display: flex;
-            align-items:center;
+            align-items: center;
             justify-content: flex-end;
             gap: 10px;
             padding: 10px 20px 15px 0px;
-            position: sticky;
-            top: 0;
 
             svg {
                 width: 20px;
                 height: 20px;
                 color: #f45046;
             }
-
             h2 {
                 margin: 0;
                 font-size: 20px;
@@ -24,9 +22,6 @@
                 font-weight: 600;
                 color: rgba(8, 16, 16, 0.881);
             }
-        }
-        .trendingPostsCard {
-            padding-top: 10px;
         }
     }
 }

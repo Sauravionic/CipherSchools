@@ -1,0 +1,45 @@
+.trendingCoursesCard {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    .trendingCoursesCardContainer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        box-shadow: 1px 2px 3px rgba(0,0,0,.08);
+        border-radius: 5px;
+        .image {
+            display: flex;
+            align-items: center;
+            img {
+                width: 140px;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+        .contents {
+            h3 {
+                margin: 0;
+                font-size: 15px;
+                font-weight: 500;
+                color: #494949f7;
+            }
+            p {
+                margin: 0;
+            }
+            .free {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                color: #f45046;
+            }
+            .enrolled {
+                font-size: 13px;
+                font-weight: 500;
+                letter-spacing: 0.6px;
+                opacity: 0.8;
+            }
+        }
+    }
+}
