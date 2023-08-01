@@ -1,5 +1,5 @@
 import LeftSection from "../../Components/LeftSection/LeftSection"
-import MiddleSection from "../../MiddleSection/MiddleSection"
+import MiddleSection from "../../Components/MiddleSection/MiddleSection"
 import RightSection from "../../Components/RightSection/RightSection"
 import "./Community.scss";
 

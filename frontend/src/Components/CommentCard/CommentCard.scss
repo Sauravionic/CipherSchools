@@ -52,7 +52,8 @@
                         min-width: max-content !important;
                         max-width: max-content !important;
                         height: 20px !important;
-
+                        background: transparent;
+                        border: none;
                         &:hover {
                             background-color: transparent;
                         }

@@ -1,8 +1,8 @@
 import "./MiddleSection.scss";
 import { useEffect } from 'react';  
 import { Link, useLocation } from "react-router-dom";
-import PostSection from "../Components/PostSection/PostSection";
-import OpportunitySection from "../Components/OpportunitySection/OpportunitySection";
+import PostSection from "../PostSection/PostSection";
+import OpportunitySection from "../OpportunitySection/OpportunitySection";
 
 const MiddleSection = ({ item }: any) => {
   const current = useLocation();
