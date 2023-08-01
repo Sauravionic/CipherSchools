@@ -11,7 +11,7 @@ const TrendingCourses = ({ item }: any) => {
           <h2>Trending Courses</h2>
         </div>
         <div className="">
-          {item.map((i:any) => {
+          {item.map(() => {
             return (
               <TrendingCoursesCard/>
             )
