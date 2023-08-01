@@ -35,8 +35,8 @@ const MiddleSection = ({ item }: any) => {
     <div className="middleSection">
       <div className="container">
         <div className="mainheaders">
-          <Link to="/"><button className="posts">Posts</button></Link>
-          <Link to="/opportunities"><button className="opportunities">Opportunities</button></Link>
+          <Link className= "postlink" to="/"><button className="posts">Posts</button></Link>
+          <Link className= "oppolink" to="/opportunities"><button className="opportunities">Opportunities</button></Link>
         </div>
         <hr />
         <div className="contents">

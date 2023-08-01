@@ -1,8 +1,12 @@
-.loader {
-    overflow-y: scroll;
-    max-height: 800px;
-
-    &::-webkit-scrollbar {
-        display: none;
+.postSection {
+    .container {
+        .loader {
+            overflow-y: scroll;
+            max-height: 100vh;
+        
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
     }
 }

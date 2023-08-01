@@ -2,5 +2,13 @@
     flex-basis: 27%;
     margin-top: 20px;
     padding-right: 20px;
-    .rightcontainer {}
+    .rightcontainer {
+        overflow-y: auto;
+        max-height: calc(100vh - 66px);
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
 }
+

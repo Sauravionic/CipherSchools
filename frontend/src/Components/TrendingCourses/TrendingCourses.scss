@@ -1,8 +1,10 @@
 .trendingCourses {
     margin-top: 25px;
+    margin-bottom: 20px;
     .trendingCoursesContianer {
         background-color: #f7f9f9;
-        border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 10px 10px;
+        padding-bottom: 10px;
         .trendingheader{
             display: flex;
             align-items: center;

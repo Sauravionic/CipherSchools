@@ -1,7 +1,7 @@
 .trendingPosts {
     .trendingcontainer {
         background-color: #f7f9f9;
-        border-radius: 10px 10px 0 0;
+        border-radius: 10px;
         .trendingheader {
             display: flex;
             align-items:center;
@@ -10,7 +10,9 @@
             padding: 10px 20px 15px 0px;
             position: sticky;
             top: 0;
-
+            z-index: 999;
+            background-color: #f7f9f9;
+            border-radius: 15px 15px 0px 0px;
             svg {
                 width: 20px;
                 height: 20px;
@@ -27,6 +29,7 @@
         }
         .trendingPostsCard {
             padding-top: 10px;
+            padding-bottom: 10px;
         }
     }
 }

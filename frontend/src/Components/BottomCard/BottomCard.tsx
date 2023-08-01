@@ -3,12 +3,12 @@ import "./BottomCard.scss";
 import { users } from "../../data";
 
 const BottomSection = () => {
-    
+    const user = users.slice(0, 7);
     return (
         <div className="bottomCard">
             <div className="container">
                 {
-                    users.map((u) => {
+                    user.map((u) => {
                         return (
                             <BottomCardItem props={u} />
                         )

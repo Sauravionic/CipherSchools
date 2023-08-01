@@ -48,3 +48,15 @@
         }
     }
 }
+
+
+// MEDIA QUERY
+@media (max-width:1200px ) {
+    .middleSection {
+        flex-basis: 75%;
+        .container {
+            max-height: 100vh;
+        }
+    }
+}
+
